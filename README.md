@@ -37,9 +37,7 @@ The platform is organized in layers:
 9. **Security Layer:** Microsoft Defender for Cloud, Azure Key Vault  
 10. **Migration Layer:** Azure Migrate for workload onboarding  
 
-> **Architecture-Flow:** See `docs/architecture-diagram.png`
-> ## End‑to‑End Architecture Diagram
-![Architecture Diagram](project-screenshot/architecture-diagram.PNG).
+> **Architecture-Flow:** See `docs/architecture-diagram.GIF`
 
 ---
 
@@ -75,12 +73,13 @@ The platform is organized in layers:
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/yourusername/saas-audio-platform.git
-cd saas-audio-platform
+```
+git clone https://github.com/Cloud-Architect-Emma/azure-zero-trust-multitenant-saas.git
+cd azure-zero-trust-multitenant-saas
 Follow the deployment instructions in docs/deployment.md for environment setup.
+```
 
-Documentation
+### Documentation
 Architecture Diagram: docs/architecture-diagram.png
 
 Design Document (SAD): docs/SAD_ZeroTrust_MultiTenant.docx
@@ -96,12 +95,12 @@ Risks: Tenant data leakage, cost overrun, identity misconfiguration, regional ou
 
 Next Steps: Architecture approval, landing zone setup, POC validation, cost baseline, security threat modelling
 
-Contributing
+**Contributing**
 Contributions are welcome! Please follow the guidelines in CONTRIBUTING.md.
 
-License
+**License**
 This project is licensed under the MIT License. See LICENSE for details.
 
-Contact
+**Contact**
 Solution Architect: Emma.
 Email: emmanuela_prince@yahoo.com
