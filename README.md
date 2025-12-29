@@ -37,7 +37,12 @@ The platform is organized in layers:
 9. **Security Layer:** Microsoft Defender for Cloud, Azure Key Vault  
 10. **Migration Layer:** Azure Migrate for workload onboarding  
 
-> **Architecture-Flow:** See `docs/architecture-diagram.GIF`
+
+![Architecture-Flow](architecture-diagram/architecture-diagram.gif).     
+
+
+![Pre-Deployment Validation](docs/WellArchitected_Results.PNG).   
+
 
 ---
 
